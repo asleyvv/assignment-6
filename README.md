@@ -23,3 +23,4 @@ Open `index.html` in a browser (or use Live Server in VS Code). Open the console
 1. Push the files to a GitHub repository.
 2. Settings, Pages, choose branch `main` and folder `/ (root)`.
 3. Wait a minute and open the link GitHub gives you.
+4. Already deplyed pages website https://asleyvv.github.io/assignment-6/
