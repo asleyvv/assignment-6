@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Part 3: DOM manipulation | Assignment 6 jQuery</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav><span class="brand">Assignment 6 · jQuery</span><a href="index.html">Part 1</a><a href="effects.html">Part 2</a><a href="dom.html" class="on">Part 3</a><a href="animations.html">Part 4</a><a href="project.html">Mini project</a></nav>
+<main>
+<h1>Part 3: DOM manipulation</h1>
+
+<section><h2>Task 5. Add and remove elements</h2>
+<ul id="list"><li>Item 1</li><li>Item 2</li></ul>
+<div class="row"><button id="add">Add Item (append)</button><button id="addTop">Add to top (prepend)</button><button id="del">Remove Item</button></div></section>
+<section><h2>Task 6. Attributes</h2>
+<img id="photo" src="img/pic1.svg" alt="demo picture" width="220"><br>
+<button id="chSrc">Change image src</button>
+<p><a id="lnk" href="https://api.jquery.com" target="_blank">jQuery API</a> <span id="href" class="small"></span></p>
+<button id="chHref">Change link href</button></section>
+<section><h2>Task 7. Form interaction</h2>
+<form onsubmit="return false">
+<label>Name <input type="text" id="name"></label>
+<label>Email <input type="email" id="email"></label>
+</form>
+<p>Name: <b id="outName"></b></p>
+<p>Email: <b id="outEmail"></b></p></section>
+</main>
+<footer>Duman Zhanybekov, SE-2530</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/dom.js"></script>
+</body>
+</html>
